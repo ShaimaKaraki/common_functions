@@ -56,7 +56,7 @@ class Table
   end
 end
 
-class Form
+class FormHelper
   def self.form_control
     "form-control"
   end
