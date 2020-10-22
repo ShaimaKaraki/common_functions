@@ -46,4 +46,18 @@ class Table
   def self.table_bordered_striped
     "<table class='table table-bordered table-striped'>".html_safe
   end
+
+  def self.table_head(name)
+    "<th>#{name}</th>".html_safe
+  end
+
+  def self.table_row_name_value(name, value)
+    "<tr><td>#{name}</td><td>#{value}</td></tr>".html_safe
+  end
+end
+
+class Form
+  def self.form_control
+    "form-control"
+  end
 end
