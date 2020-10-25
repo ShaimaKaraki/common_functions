@@ -5,3 +5,5 @@ gemspec
 
 #gem "rake", "~> 12.0"
 #gem "rspec", "~> 3.0"
+gem 'will_paginate'
+gem 'will_paginate-bootstrap4'
