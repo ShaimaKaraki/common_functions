@@ -55,9 +55,5 @@ module CommonFunctions
     def form_control
       "form-control"
     end
-
-    def will_paginate_custom(posts)
-      will_paginate(posts, inner_window: 1, outer_window: 0, next_label: "← ", previous_label: "→ ")
-    end
   end
 end
