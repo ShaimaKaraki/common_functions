@@ -56,12 +56,8 @@ module CommonFunctions
       "form-control"
     end
 
-    def will_paginate_custom(posts, next_label = "← ", previous_label = "→ ", ajaxing = false)
-      if ajaxing
-        will_paginate(posts, inner_window: 1, outer_window: 0, next_label: next_label, previous_label: previous_label, renderer: RemoteLinkPaginationHelper::LinkRenderer)
-      else
-        will_paginate(posts, inner_window: 1, outer_window: 0, next_label: next_label, previous_label: previous_label)
-      end
+    def will_paginate_custom
+      "Arrived"
     end
   end
 end
